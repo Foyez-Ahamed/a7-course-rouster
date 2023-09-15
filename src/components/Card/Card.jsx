@@ -1,4 +1,4 @@
-const Card = ({information}) => {
+const Card = ({information, handleSelectButton}) => {
 
     const {image, title, description, price, credit} = information || {};
     
@@ -15,11 +15,11 @@ const Card = ({information}) => {
 
     <div className="flex justify-between  mt-4 gap-2">
         <p className='flex items-center gap-2'><i className="fa-solid fa-dollar-sign"></i> Price :{price}</p>
-        <p className='flex items-center gap-2'><i className="fa-solid fa-book-open text-gray-600"></i>Credit : {credit} hr</p>
+        <p className='flex items-center gap-2'><i className="fa-solid fa-book-open text-gray-600"></i>Credit : {credit}hr</p>
     </div>
 
     <div className="mt-6">
-      <button className="btn btn-primary w-full text-white capitalize">Select</button>
+      <button onClick={() => handleSelectButton(information)} className="btn bg-[#2F80ED] hover:bg-gray-600 w-full text-white capitalize">Select</button>
   </div>
   </div>
 </div>
