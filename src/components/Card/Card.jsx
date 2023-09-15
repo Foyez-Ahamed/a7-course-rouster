@@ -15,7 +15,7 @@ const Card = ({information, handleSelectButton}) => {
 
     <div className="flex justify-between  mt-4 gap-2">
         <p className='flex items-center gap-2'><i className="fa-solid fa-dollar-sign"></i> Price :{price}</p>
-        <p className='flex items-center gap-2'><i className="fa-solid fa-book-open text-gray-600"></i>Credit : {credit}hr</p>
+        <p className='flex items-center gap-2'><i className="fa-solid fa-book-open text-gray-600"></i>Credit : {credit} hr</p>
     </div>
 
     <div className="mt-6">

@@ -19,7 +19,7 @@ const ShowDetails = ({courses, totalCreditHour, hourRemaining, coursePrice}) => 
 
         <p className="text-[#423e3e] text-[18px] mt-4">Total Credit Hour : {totalCreditHour} </p>
 
-        <p className="text-[#423e3e] text-[18px] mt-4">Total Price :{coursePrice} USD</p>
+        <p className="text-[#423e3e] text-[18px] mt-4">Total Price : {coursePrice} USD</p>
         </div>
         </div>
 
