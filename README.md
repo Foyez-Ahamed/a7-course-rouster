@@ -12,7 +12,7 @@
 
 <h1>Discuss below how i managed the state in my assignment project </h1>
 
-<ol>Cards data show state manage :</ol>
+<h3>Cards data show state manage :</h3>
 
 <p>In my code, i using React's useState and useEffect hooks to manage the state of the cards array in my project. Let's discuss how i managing state in this React component:
 
@@ -53,7 +53,7 @@ Overall, code effectively manages the state of the cards array by fetching and u
 
 
 
-<ol> Show course Name, Total credit hour, Total price and credit hour remaining State manage : </ol>
+<h3> Show course Name, Total credit hour, Total price and credit hour remaining State manage : </h3>
 
 
 Step 1, Managing Courses State:

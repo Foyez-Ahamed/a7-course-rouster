@@ -59,16 +59,16 @@ function App() {
     
   }
 
-  const notify = () => toast("You are already selected this course! Select another one please.");
+  const notify = () => toast("You are already selected this course! Select another one please!");
 
-  const notifyTwo = () => toast(" Sorry ! sorry credit cannot exceeds up to twenty hours and credit hour cannot remaining less then zero!");
+  const notifyTwo = () => toast(" Sorry ! credit cannot exceeds up to twenty hours and credit hours cannot remaining less then zero !");
  
 
   return (
     <>
     <Header></Header>
 
-  <div className='flex flex-col-reverse md:flex-col lg:flex-row justify-between gap-5 mt-4 lg:mt-8'>
+  <div className='flex flex-col-reverse md:flex-col-reverse lg:flex-row justify-between gap-5 mt-4 lg:mt-8'>
     <Cards handleSelectButton = {handleSelectButton}></Cards>
     <ShowDetails courses = {courses} totalCreditHour = {totalCreditHour} hourRemaining = {hourRemaining} coursePrice = {coursePrice}></ShowDetails>
   </div>
