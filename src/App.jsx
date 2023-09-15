@@ -14,7 +14,7 @@ function App() {
 
   const [totalCreditHour, setTotalCreditHour] = useState(0);
 
-  const [hourRemaining, setHourRemaining] = useState(0);
+  const [hourRemaining, setHourRemaining] = useState(20);
 
   const [coursePrice, setCoursePrice] = useState(0);
 
@@ -45,7 +45,7 @@ function App() {
 
     let totalRemaining = 20 - creditHour;
 
-    if(creditHour >= 20){
+    if(creditHour > 20 && totalRemaining < 0){
       return notifyTwo();
     }
 
@@ -61,20 +61,20 @@ function App() {
 
   const notify = () => toast("You are already selected this course!🐸");
 
-  const notifyTwo = () => toast("Credit cannot up to 20 hours!😑");
+  const notifyTwo = () => toast(" Sorry ! Credit cannot exceeds up to 20 hours!😑");
  
 
   return (
     <>
     <Header></Header>
 
-  <div className='flex flex-col md:flex-col lg:flex-row justify-between gap-5 mt-4 lg:mt-8'>
+  <div className='flex flex-col-reverse md:flex-col lg:flex-row justify-between gap-5 mt-4 lg:mt-8'>
     <Cards handleSelectButton = {handleSelectButton}></Cards>
     <ShowDetails courses = {courses} totalCreditHour = {totalCreditHour} hourRemaining = {hourRemaining} coursePrice = {coursePrice}></ShowDetails>
   </div>
 
   <div>
-      <button onClick={notify}>Notify!</button>
+      <button onClick={notify}></button>
       <ToastContainer/>
      </div>
 

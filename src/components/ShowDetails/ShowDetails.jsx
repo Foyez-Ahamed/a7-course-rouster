@@ -11,7 +11,7 @@ const ShowDetails = ({courses, totalCreditHour, hourRemaining, coursePrice}) => 
         <h2 className="text-[#1C1B1B] text-[20px] font-bold mt-4">Course Name</h2>
         <div className="mt-4">
         {
-            courses.map((titleName, index ) => <li className="list-decimal text-[#7b7575] text-[14px] font-bold" key={index}>{titleName.title}</li>)
+            courses.map((titleName, index ) => <li className="list-decimal text-[#7b7575] text-[14px] font-bold py-1" key={index}>{titleName.title}</li>)
         }
         </div>
 

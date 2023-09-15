@@ -3,7 +3,7 @@
       "id": 1,
       "image": "https://i.ibb.co/BNwZ91K/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "It can be used to develop software like operating systems,databases, compilers.",
       "price": 15000,
       "credit": 1,
       "button": "Select"
@@ -12,7 +12,7 @@
       "id": 2,
       "image": "https://i.ibb.co/TMQXRqx/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "An algorithm is a procedure used for solving a problem or performing a computation.",
       "price": 25000,
       "credit": 2,
       "button": "Select"
@@ -21,7 +21,7 @@
       "id": 3,
       "image": "https://i.ibb.co/p0QgCnR/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Using DSA, you can solve complex problems without any hustle.",
       "price": 10000,
       "credit": 10,
       "button": "Select"
@@ -30,7 +30,7 @@
       "id": 4,
       "image": "https://i.ibb.co/n1Hfn3D/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "A data structure is a storage that is used to store and organize data. ",
       "price": 35000,
       "credit": 5,
       "button": "Select"
@@ -39,7 +39,7 @@
       "id": 5,
       "image": "https://i.ibb.co/Ws5WHLw/Rectangle-2.png",
       "title": "Introduction to OOP Python",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " In Python, object-oriented Programming (OOPs) is a programming paradigm",
       "price": 19000,
       "credit": 5,
       "button": "Select"
@@ -48,7 +48,7 @@
       "id": 6,
       "image": "https://i.ibb.co/NsM1XG4/Rectangle-2-5.png",
       "title": "Software Engineering ",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Software engineering is the branch of computer sciencethat deals with the development.",
       "price": 23000,
       "credit": 2,
       "button": "Select"
@@ -57,7 +57,7 @@
       "id": 7,
       "image": "https://i.ibb.co/Mk6kNtQ/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Cloud computing is the on-demand delivery of IT resources over the Internet.",
       "price": 35000,
       "credit": 5,
       "button": "Select"
@@ -66,7 +66,7 @@
       "id": 8,
       "image": "https://i.ibb.co/wz72ddm/Rectangle-2-1.png",
       "title": "Database (MySQL)",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "MySQL is widely used relational database management system. free and open-source.",
       "price": 19000,
       "credit": 5 ,
       "button": "Select"
@@ -75,7 +75,7 @@
       "id": 9,
       "image": "https://i.ibb.co/NtN939r/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Problem solving is the process of achieving a goal by overcoming obstacles.",
       "price": 23000,
       "credit": 2,
       "button": "Select"

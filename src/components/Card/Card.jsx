@@ -5,9 +5,9 @@ const Card = ({information, handleSelectButton}) => {
     return (
         <div>
             
-  <div className="card card-compact bg-base-100 shadow-xl">
+  <div className="card p-1 card-compact bg-base-100 shadow-xl">
   <figure>
-    <img className="w-full" src={image} alt="all images"/>
+    <img className="w-full lg:h-[150px]" src={image} alt="all images"/>
   </figure>
   <div>
     <h2 className="text-[#1C1B1B] text-[16px] font-bold mt-4">{title}</h2>
