@@ -3,8 +3,8 @@ import './App.css'
 import Cards from './components/Cards/Cards'
 import Header from './components/Header/Header'
 import ShowDetails from './components/ShowDetails/ShowDetails'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -31,7 +31,7 @@ function App() {
   
 
   if(isHave){
-     return alert('selected')
+     return notify();
 
   } else {
 
@@ -46,7 +46,7 @@ function App() {
     let totalRemaining = 20 - creditHour;
 
     if(creditHour >= 20){
-      return alert('credit cannot up to 20 hour')
+      return notifyTwo();
     }
 
     setTotalCreditHour(creditHour);
@@ -58,6 +58,10 @@ function App() {
   }
     
   }
+
+  const notify = () => toast("You are already selected this course!🐸");
+
+  const notifyTwo = () => toast("Credit cannot up to 20 hours!😑");
  
 
   return (
@@ -68,6 +72,11 @@ function App() {
     <Cards handleSelectButton = {handleSelectButton}></Cards>
     <ShowDetails courses = {courses} totalCreditHour = {totalCreditHour} hourRemaining = {hourRemaining} coursePrice = {coursePrice}></ShowDetails>
   </div>
+
+  <div>
+      <button onClick={notify}>Notify!</button>
+      <ToastContainer/>
+     </div>
 
     </>
   )
