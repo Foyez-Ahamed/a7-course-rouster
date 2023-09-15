@@ -59,9 +59,9 @@ function App() {
     
   }
 
-  const notify = () => toast("You are already selected this course!🐸");
+  const notify = () => toast("You are already selected this course! Select another one please.");
 
-  const notifyTwo = () => toast(" Sorry ! Credit cannot exceeds up to 20 hours!😑");
+  const notifyTwo = () => toast(" Sorry ! sorry credit cannot exceeds up to twenty hours and credit hour cannot remaining less then zero!");
  
 
   return (
@@ -76,7 +76,7 @@ function App() {
   <div>
       <button onClick={notify}></button>
       <ToastContainer/>
-     </div>
+  </div>
 
     </>
   )
